@@ -1,0 +1,46 @@
+/* GERAL */
+.cabecalho {
+    background-color: var(--vermelho);
+    height: 80px;
+    color: #fff;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+/* BLOCO ESQUERDA */
+.cabecalho__bloco__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cabecalho__bloco__logo:hover {
+    text-decoration: none;
+}
+
+.cabecalho__logo {
+    height: 100%;
+    margin-right: 1.1rem;
+}
+
+.cabecalho__titulo {
+    color: #fff;
+    font-family: "Zhi Mang Xing";
+    font-size: 3rem;
+}
+
+/* BLOCO DIREITA */
+.cabecalho__menu {
+    display: flex;
+    
+}
+
+.cabecalho__menu__item {
+    color: #fff;
+    margin-right: 3rem;
+    font-size: 1.2rem;
+}

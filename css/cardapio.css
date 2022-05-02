@@ -1,0 +1,61 @@
+.cardapio {
+    height: 60vh;
+    background-color: var(--bege);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardapio__titulo {
+}
+
+.cardapio__lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardapio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.cardapio__item__imagem {
+    height: 150px;
+    width: 200px;
+    border: 2px solid var(--vermelho);
+    border-radius: 20px;
+}
+
+.item1 {
+    background-image: url(../img/yakissoba.jpg);
+    background-size: cover;
+}
+
+.item2 {
+    background-image: url(../img/frango_xadrex.jpg);
+    background-size: cover;
+}
+
+.item3 {
+    background-image: url(../img/porco.jpg);
+    background-size: cover;
+}
+
+.item4 {
+    background-image: url(../img/primavera.jpg);
+    background-size: cover;
+}
+
+.cardapio__item__nome {
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+.cardapio__item__descricao {
+
+}

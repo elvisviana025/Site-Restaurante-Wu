@@ -1,4 +1,13 @@
+:root {
+    --vermelho: #8C2D18;
+    --preto: #262526;
+    --bege: #F2E1C2;
+}
 
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 
 h2 {
     font-size: 2rem;
