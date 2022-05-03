@@ -10,6 +10,7 @@
 }
 
 .cardapio__titulo {
+
 }
 
 .cardapio__lista {
@@ -27,8 +28,13 @@
 .cardapio__item__imagem {
     height: 150px;
     width: 200px;
-    border: 2px solid var(--vermelho);
+    box-shadow: 5px 5px 5px var(--vermelho);
     border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.cardapio__item__imagem:hover {
+    box-shadow: 10px 10px 5px var(--vermelho);
 }
 
 .item1 {
@@ -58,4 +64,37 @@
 
 .cardapio__item__descricao {
 
+}
+
+@media screen and (max-width: 1024px){
+    .cardapio {
+        height: auto;
+    }
+
+    .cardapio__titulo {
+        margin-bottom: 20px;
+    }
+
+    .cardapio__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardapio__item {
+        background-color: rgb(255, 255, 255, 0.4);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .cardapio__item__descricao {
+        margin-bottom: 10px;
+    }
+
+    .cardapio__item__imagem {
+        box-shadow: 0px 5px 5px var(--vermelho);
+    }
+    .cardapio__item__imagem:hover {
+        box-shadow: 0px 5px 5px var(--vermelho);
+    }
 }

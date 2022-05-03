@@ -1,0 +1,63 @@
+.biscoito {
+    height: 60vh;
+    background-color: var(--vermelho);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.biscoito__titulo {
+
+}
+
+.biscoito__bloco__frase {
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    background-color: antiquewhite;
+
+}
+
+.bicoito__frase {
+    border: 2px solid #000;
+    font-size: 2rem;
+    color: black;
+}
+
+.biscoito__btn {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
+}
+
+.biscoito__btn:hover {background-color: var(--bege)}
+
+.biscoito__btn:active {
+  background-color: var(--bege);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 1024px){
+    .biscoito__bloco__frase {
+        width: 100%;
+    
+    }
+    
+    .bicoito__frase {
+        font-size: 1.2rem;
+    }
+}
