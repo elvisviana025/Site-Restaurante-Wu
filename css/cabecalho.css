@@ -64,12 +64,13 @@
     .cabecalho {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 0rem;
     }
     
     .cabecalho__icone__menu {
         display: inline-block;
         justify-self: start;
-        margin: 0px;
+        margin-left: 20px;
     }
     
     .cabecalho__titulo {
