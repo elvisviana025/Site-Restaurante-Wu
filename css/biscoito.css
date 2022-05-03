@@ -11,9 +11,9 @@
     color: #fff;
 }
 
-.biscoito__titulo {
-
-}
+/* .biscoito__titulo {
+    
+} */
 
 .biscoito__bloco__frase {
     height: 200px;
@@ -21,11 +21,13 @@
     border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     padding: 20px;
     width: 400px;
     background-color: antiquewhite;
-
+    text-align: center;
+    
 }
 
 .bicoito__frase {
@@ -46,15 +48,20 @@
 .biscoito__btn:hover {background-color: var(--bege)}
 
 .biscoito__btn:active {
-  background-color: var(--bege);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: var(--bege);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 @media screen and (max-width: 1024px){
+    .biscoito {
+        height: auto;
+    }
+    
     .biscoito__bloco__frase {
         width: 100%;
-    
+        margin: 50px 0px;
+        
     }
     
     .bicoito__frase {

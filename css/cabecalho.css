@@ -11,6 +11,15 @@
 }
 
 /* BLOCO ESQUERDA */
+.cabecalho__icone__menu {
+    display: none;
+    background-color: var(--vermelho);
+    color: var(--bege);
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 .cabecalho__bloco__logo {
     display: flex;
     align-items: center;
@@ -45,22 +54,62 @@
     font-size: 1.2rem;
 }
 
+.menu__lateral {
+    display: none;
+
+}
+
+
 @media screen and (max-width: 1024px){
     .cabecalho {
-        justify-content: space-around;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-
+    
+    .cabecalho__icone__menu {
+        display: inline-block;
+        justify-self: start;
+        margin: 0px;
+    }
+    
     .cabecalho__titulo {
         display: none;
     }
-
+    
+    .cabecalho__bloco__logo {
+        justify-self: center;
+    }
+    
     .cabecalho__logo {
         margin-right: 0px;
     }
-
-    /* POR ENQUANTO: DEPOIS MENU SANDUICHE */
+    
     .cabecalho__menu {
         display: none;
         
+    }
+    
+    .menu__lateral {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--vermelho);
+        color: white;
+        width: 50vw;
+        height: 100vh;
+        position: absolute;
+        z-index: 1;
+        left: -100vw;
+        transition: .5s; 
+    }
+    
+    .menu__lateral--ativo {
+        left: 0;
+        transition: .5s;
+    }
+    
+    .menu__lateral__item {
+        color: #fff;
+        margin: 20px;
+        font-size: 1.5rem;
     }
 }

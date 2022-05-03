@@ -38,10 +38,12 @@
 
 @media screen and (max-width: 1024px){
     .banner {
-        height: 50vh;
+        height: auto;
+        padding: 50px 0px;
     }
 
     .banner__bloco__texto {
+        position: relative;
         margin: 10px;
         height: auto;
         top: auto;
