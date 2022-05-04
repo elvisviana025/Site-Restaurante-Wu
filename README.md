@@ -1,4 +1,4 @@
-# Site "Restaurante Wu"
+# Site "Restaurante Wu" 🥡
 
 ## 📝 Descrição
 
