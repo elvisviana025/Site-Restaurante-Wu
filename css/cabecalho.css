@@ -65,12 +65,16 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 0rem;
+        position: fixed;
+        top: 0px;
+        width: 100vw;
+        z-index: 2;
     }
     
     .cabecalho__icone__menu {
         display: inline-block;
         justify-self: start;
-        margin-left: 20px;
+        margin-left: 0px;
     }
     
     .cabecalho__titulo {
@@ -95,12 +99,14 @@
         flex-direction: column;
         background-color: var(--vermelho);
         color: white;
-        width: 50vw;
+        width: 40vw;
         height: 100vh;
         position: absolute;
         z-index: 1;
         left: -100vw;
         transition: .5s; 
+        position: fixed;
+        top: 80px;
     }
     
     .menu__lateral--ativo {
