@@ -31,9 +31,10 @@
 }
 
 .bicoito__frase {
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
     font-size: 2rem;
     color: black;
+    font-style: italic;
 }
 
 .biscoito__btn {
