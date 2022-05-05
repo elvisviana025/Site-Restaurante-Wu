@@ -3,6 +3,7 @@ const btn = document.querySelector('#botao__frase');
 
 
 btn.addEventListener('click', () => {
+    btn.classList.toggle('biscoito__btn--ativo')
     gerarFrase();
 })
 
