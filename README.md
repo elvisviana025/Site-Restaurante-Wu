@@ -1,5 +1,9 @@
 # Site "Restaurante Wu" 🥡
 
+<div align="center">
+  <img style='height: 250px'  src="img/banner.png" alt="Minha Figura">
+</div>
+
 ## 📝 Descrição
 
 Projeto de página inicial de um restaurante chinês. Site feito para praticar códigos em HTML, CSS e Javascript e também design responsivo. 
