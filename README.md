@@ -20,9 +20,10 @@ O site também consume a API externa "Advice Slip JSON API", que gera frases de 
 
 ## 🎨 Design
 ### Paleta de cores:
-* ![#8C2D18](https://via.placeholder.com/15/8C2D18/000000?text=+) `#8C2D18` vermelho
-* ![#262526](https://via.placeholder.com/15/262526/000000?text=+) `#262526` preto
-* ![#F2E1C2](https://via.placeholder.com/15/F2E1C2/000000?text=+) `#F2E1C2` bege
+
+- ![#8C2D18](https://via.placeholder.com/15/8C2D18/8C2D18.png) `#8C2D18` vermelho
+- ![#262526](https://via.placeholder.com/15/262526/262526.png) `#262526` preto
+- ![#F2E1C2](https://via.placeholder.com/15/F2E1C2/F2E1C2.png) `#F2E1C2` bege
 
 
 ### Fontes:
